@@ -87,8 +87,11 @@ public class BaseTest {
 		driver = initializeDriver();
 		landingpage = new LandingPage(driver);
 		landingpage.goTo();
+		System.out.println("Hello6");
+		System.out.println("Hello7");
 		return landingpage;
 	}
+	
 	
 	@AfterMethod(alwaysRun=true)
 	public void tearDown()
