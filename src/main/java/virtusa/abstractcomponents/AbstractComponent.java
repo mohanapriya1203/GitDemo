@@ -22,6 +22,8 @@ public class AbstractComponent {
 		PageFactory.initElements(driver, this);
 		System.out.println("Hello1");
 		System.out.println("Hello2");
+		System.out.println("Hello3");
+		System.out.println("Hello4");
 	}
 	
 	@FindBy(css="[routerlink*='cart']")

@@ -14,6 +14,7 @@ public class OrderPage extends AbstractComponent {
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("Hello5");
 	}
 	
 	@FindBy(css="tr td:nth-child(3)")
