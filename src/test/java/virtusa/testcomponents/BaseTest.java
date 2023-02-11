@@ -96,6 +96,8 @@ public class BaseTest {
 	@AfterMethod(alwaysRun=true)
 	public void tearDown()
 	{
+		System.out.println("Hello8");
+
 		driver.close();
 	}
 }
